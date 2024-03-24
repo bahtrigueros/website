@@ -500,12 +500,56 @@ span.ds-department {
 	height: 8px;
 	background-color: #373737;
 }
+
+/*-----------------------------------------------------------------
+  6. >>> Work Style
+----------------------------------------------------------------*/
+.ds-free-time p {
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 300;
+}
+.ds-free-time ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	padding-top: 10px;
+}
+.ds-free-time ul li {
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 300;
+	padding-left: 28px;
+	position: relative;
+	margin-bottom: 7px;
+}
+.ds-free-time ul li:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 10px;
+	border-radius: 100%;
+	width: 8px;
+	height: 8px;
+	background-color: #373737;
+}
+.ds-free-time img {
+	width: 100%;
+	height: auto;
+}
+.ds-free-time .text {
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 30px;
+}
+
 /*-----------------------------------------------------------------
   7. >>> Footer Style
 ----------------------------------------------------------------*/
 .ds-footer {
 	background-color: #000;
 	padding: 120px 0;
+	margin-top: 50px;
 }
 .ds-footer section {
 	padding-bottom: 97px;
